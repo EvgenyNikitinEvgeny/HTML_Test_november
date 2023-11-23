@@ -1,0 +1,19 @@
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  background-attachment: fixed;
+  padding: 100px;
+  font-family: Neucha, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  @include onMobil-max {
+    width: 768px;
+  }
+}
+
+
+
